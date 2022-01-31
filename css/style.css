@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Forum&family=Roboto&family=Scada&family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Scada', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.757)), url("../images/background.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+.main-container .navbar{
+    height: fit-content;
+    padding: 40px 5%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5vw;
+}
+.navbar #logo{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+.content-logo {
+    margin-top: 10vh;
+}
+.main-title h1 {
+    font-size:26px;
+    font-weight:700; 
+    letter-spacing:1px; 
+    text-transform:uppercase; 
+    width:200px; 
+    text-align:center; 
+    margin:auto; 
+    white-space:nowrap; 
+    padding-bottom:13px;
+  }
+.main-title h1:before {
+    background-color: #3A8871;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 5px;
+}
+.main-title h1:after {
+    background-color: #3A8871;
+    content: '';
+    display: block;
+    margin-left: auto !important;
+    height: 3px;
+    width: 75px;
+    margin-top: 0.25em;
+  }
+.info{
+    color: white;
+    margin-top: 25vh;
+}
+.base-button{
+    color:white;
+    text-decoration: none;
+    border: 1px solid #3A8871;
+    border-radius: 50px;
+    padding: 3px 20px;
+}
+.base-button:hover{
+    background-color: #3f9e82;
+    box-shadow: 0px 0px 12px 0px #60ccac;
+}
+.fill{
+    background-color:  #3A8871;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 12px 0px #60ccac;
+    cursor: pointer;
+}
+.images{
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 0px 0px 12px 0px #292929b6;
+    border-radius: 20px;
+    margin-left: 15px;
+    transition: transform .2s ease-in-out;
+}
+
+.images:hover{
+    transform: scale(1.1);
+}
+.info-container{
+    text-align: center;
+    padding: 30px 5vw;
+    height: 55vh;
+}
+#text-info{
+    font-size: 18px;
+    text-align: left;
+    width: 45%;
+}
+.text-image{
+    width: 15vw;
+    margin: 0 20px;
+    float: right;
+}
+.carousel-content{
+    padding: 20px 7% !important;
+    background: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.757)), url("../images/dep2.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+.dep1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.757)), url("../images/dep1.jpg");
+}
+.dep2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.757)), url("../images/dep2.jpg");
+}
+.dep3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.757)), url("../images/dep3.jpg");
+}
+.carousel-content h4, span{
+    color: rgb(197, 197, 197)
+}
+.carousel-label {
+    font-size: 18px;
+}
+.card-body {
+    background-color: #dfdfdfb6 !important;
+}
+.color-button{
+    color:#3A8871;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid #3A8871;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.color-button:hover{
+    color:#fff;
+    background-color: #3A8871;
+}
+footer{
+    background-color: #3A8871;
+    color: white;
+    padding: 5vh 5vw;
+    margin-top: 50px;
+    text-align: center;
+}
+footer p{
+    font-weight: 100;
+    line-height: 1.5em;
+}
